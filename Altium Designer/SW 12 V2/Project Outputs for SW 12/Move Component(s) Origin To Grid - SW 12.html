@@ -1,0 +1,230 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 { 
+			font-family : sans-serif;
+			color : white;
+			background-color : #21489e;
+			padding: 0.3em;
+		}
+		body { 
+			font-family : verdana;
+		}
+		td, th {  
+			padding: 0.5em;
+			text-align : center;
+			width : 18%;	
+		}
+		th { 
+			background-color : #A6CAF0;
+		
+		}
+		th.column1, td.column1 { 
+			text-align: left;
+			width : auto; 
+		}
+		table { 
+			width : 100%; 
+		}
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3 {
+			padding-top : 0.1em;
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width : auto;
+			vertical-align: top
+		}
+		.front_matter_column1 {
+			text-align : right;
+		}
+		.total_column1, .total_column {
+			font-weight : bold;	
+		}
+		.total_column1 {
+			text-align : right;
+		}
+		.front_matter_column2 {
+			text-align : center;
+		}
+		.front_matter_column3 {
+			text-align : left;
+		}
+		.warning, .error { 
+			color : red;
+			font-weight : bold;
+		}	
+		tr.onmouseout_odd { 
+			background-color : #EEEEE0 
+		}
+		tr.onmouseout_even { 
+			background-color : #F3F3E3   
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : lightYellow 
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #008000 
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+			
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);		
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {	
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}	
+	</script><title>Move Component(s) Origin to Grid</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD15\Templates\AD-rgb_logo_223x64.gif
+		"><a href="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports" class="customize"><acronym title="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports">customize</acronym></a><h1>Move Component(s) Origin to Grid</h1>
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">10/12/2015</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">21:39:56</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename</td>
+<td class="front_matter_column2">:</td>
+<td class="front_matter_column3"><a href="file:///F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc" class="file"><acronym title="F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc">F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc</acronym></a></td>
+</tr>
+</table>
+<hr><a name="IDKJ10ZDZGIUCKE1QC1T3NLRJD5NTYHCCUAL0HH1BYXXRCV4E1XU4H"><h2>Components Origin</h2></a><a name="IDI2FIE2S1AKZ3LUUGSPK3ZDX4PKWRKVVUVJCEZZGFNWTPD2ISKNFF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="warning"></th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2125mil|Location2.X=2298.937mil|Location1.Y=951.063mil|Location2.Y=1358.937mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2125mil|Location2.X=2298.937mil|Location1.Y=951.063mil|Location2.Y=1358.937mil|Absolute=True">SIP Component PowerOut-Header 4 (2245mil,1005mil) on Top Layer</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=741.063mil|Location2.X=899.987mil|Location1.Y=956.063mil|Location2.Y=1363.937mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=741.063mil|Location2.X=899.987mil|Location1.Y=956.063mil|Location2.Y=1363.937mil|Absolute=True">SIP Component PowerIn-Header 4 (795mil,1010mil) on Top Layer</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1614.5mil|Location2.X=1884.842mil|Location1.Y=1246.654mil|Location2.Y=1548.487mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1614.5mil|Location2.X=1884.842mil|Location1.Y=1246.654mil|Location2.Y=1548.487mil|Absolute=True">SOIC Component U1-TPS54331DDAR (1750mil,1350mil) on Top Layer</acronym></a> - Component origin is already ON grid. - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1968.5mil|Location2.X=2115.126mil|Location1.Y=2360.945mil|Location2.Y=2618.015mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1968.5mil|Location2.X=2115.126mil|Location1.Y=2360.945mil|Location2.Y=2618.015mil|Absolute=True">SMT Small Component Rfbt-CRCW080510K2FKEA (2020mil,2449.528mil) on Top Layer</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2673.5mil|Location2.X=2833.455mil|Location1.Y=1175.945mil|Location2.Y=1433.015mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2673.5mil|Location2.X=2833.455mil|Location1.Y=1175.945mil|Location2.Y=1433.015mil|Absolute=True">SMT Small Component Rfbb-CRCW0805732RFKEA (2725mil,1264.527mil) on Top Layer</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1298.5mil|Location2.X=1505.107mil|Location1.Y=2340.945mil|Location2.Y=2618.015mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1298.5mil|Location2.X=1505.107mil|Location1.Y=2340.945mil|Location2.Y=2618.015mil|Absolute=True">SMT Small Component Rcomp-CRCW080538K3FKEA (1350mil,2429.528mil) on Top Layer</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2542.5mil|Location2.X=2767.205mil|Location1.Y=2243.228mil|Location2.Y=2476.487mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2542.5mil|Location2.X=2767.205mil|Location1.Y=2243.228mil|Location2.Y=2476.487mil|Absolute=True">SMT Small Component L1-SRR1260-150M (2655mil,2320mil) on Top Layer</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2227.5mil|Location2.X=2472.5mil|Location1.Y=2120.528mil|Location2.Y=2618.015mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2227.5mil|Location2.X=2472.5mil|Location1.Y=2120.528mil|Location2.Y=2618.015mil|Absolute=True">SMT Small Component D1-B340A-13-F (2350mil,2329.528mil) on Top Layer</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3303.189mil|Location2.X=3430.132mil|Location1.Y=1285.158mil|Location2.Y=1434.015mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3303.189mil|Location2.X=3430.132mil|Location1.Y=1285.158mil|Location2.Y=1434.015mil|Absolute=True">SMT Small Component Css-GRM188R71E822KA01D (3315mil,1324.527mil) on Top Layer</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=958.228mil|Location2.X=1158.442mil|Location1.Y=2312.323mil|Location2.Y=2617.015mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=958.228mil|Location2.X=1158.442mil|Location1.Y=2312.323mil|Location2.Y=2617.015mil|Absolute=True">SMT Small Component Cout2-GRM32ER61E226KE15L (1035mil,2424.528mil) on Top Layer</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=638.228mil|Location2.X=825.113mil|Location1.Y=2312.323mil|Location2.Y=2617.015mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=638.228mil|Location2.X=825.113mil|Location1.Y=2312.323mil|Location2.Y=2617.015mil|Absolute=True">SMT Small Component Cout1-GRM32ER61E226KE15L (715mil,2424.528mil) on Top Layer</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1123.228mil|Location2.X=1339.987mil|Location1.Y=1147.795mil|Location2.Y=1372.205mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1123.228mil|Location2.X=1339.987mil|Location1.Y=1147.795mil|Location2.Y=1372.205mil|Absolute=True">SMT Small Component Cin2-GRM32ER71H475KA88L (1200mil,1260mil) on Top Layer</acronym></a> - Component origin is already ON grid. - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=890mil|Location2.X=1106.772mil|Location1.Y=1142.795mil|Location2.Y=1367.205mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=890mil|Location2.X=1106.772mil|Location1.Y=1142.795mil|Location2.Y=1367.205mil|Absolute=True">SMT Small Component Cin1-GRM32ER71H475KA88L (1030mil,1255mil) on Top Layer</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1101.671mil|Location2.X=1238.465mil|Location1.Y=1507.913mil|Location2.Y=1720mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1101.671mil|Location2.X=1238.465mil|Location1.Y=1507.913mil|Location2.Y=1720mil|Absolute=True">SMT Small Component Ccomp-CC0805KRX7R9BB152 (1205mil,1565mil) on Top Layer</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=931.671mil|Location2.X=1068.465mil|Location1.Y=1478.407mil|Location2.Y=1725mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=931.671mil|Location2.X=1068.465mil|Location1.Y=1478.407mil|Location2.Y=1725mil|Absolute=True">SMT Small Component Ccomp2-CL21C300JBANNNC (1035mil,1565mil) on Top Layer</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribuci%C3%B3n de Energ%C3%ADa\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2796.378mil|Location2.X=2989.778mil|Location1.Y=2440.315mil|Location2.Y=2619.015mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2796.378mil|Location2.X=2989.778mil|Location1.Y=2440.315mil|Location2.Y=2619.015mil|Absolute=True">SMT Small Component Cboot-C1608X7R1E104K (2820mil,2489.528mil) on Top Layer</acronym></a> - Component pads are OFF grid. No action taken.</td>
+</tr>
+</table></a><a href="#top">Back to top</a><br><br><hr>
+</body>
+</html>

@@ -1,0 +1,55 @@
+Added Component: Designator=Cboot(1608[0603])
+Added Component: Designator=Ccomp2(C0805)
+Added Component: Designator=Ccomp(C0805)
+Added Component: Designator=Cin1(C1210_M)
+Added Component: Designator=Cin2(C1210_M)
+Added Component: Designator=Cout1(C1210_M)
+Added Component: Designator=Cout2(C1210_M)
+Added Component: Designator=Css(0603)
+Added Component: Designator=D1(DIODE_SMC)
+Added Component: Designator=L1(C1210_M)
+Added Component: Designator=Rcomp(6-0805_M)
+Added Component: Designator=Rfbb(6-0805_M)
+Added Component: Designator=Rfbt(6-0805_M)
+Added Component: Designator=U1(SO8_L)
+Added Pin To Net: NetName=0 Pin=Ccomp2-2
+Added Pin To Net: NetName=0 Pin=Ccomp-2
+Added Pin To Net: NetName=0 Pin=Cin1-1
+Added Pin To Net: NetName=0 Pin=Cin1-2
+Added Pin To Net: NetName=0 Pin=Cin2-1
+Added Pin To Net: NetName=0 Pin=Cin2-2
+Added Pin To Net: NetName=0 Pin=Cout1-1
+Added Pin To Net: NetName=0 Pin=Cout1-2
+Added Pin To Net: NetName=0 Pin=Cout2-1
+Added Pin To Net: NetName=0 Pin=Cout2-2
+Added Pin To Net: NetName=0 Pin=Css-2
+Added Pin To Net: NetName=0 Pin=D1-2
+Added Pin To Net: NetName=0 Pin=L1-2
+Added Pin To Net: NetName=0 Pin=Rfbb-1
+Added Pin To Net: NetName=0 Pin=Rfbb-2
+Added Pin To Net: NetName=0 Pin=Rfbt-1
+Added Pin To Net: NetName=0 Pin=Rfbt-2
+Added Pin To Net: NetName=0 Pin=U1-2
+Added Pin To Net: NetName=0 Pin=U1-5
+Added Pin To Net: NetName=0 Pin=U1-7
+Added Net: Name=0
+Added Pin To Net: NetName=NetCboot_1 Pin=Cboot-1
+Added Pin To Net: NetName=NetCboot_1 Pin=U1-1
+Added Net: Name=NetCboot_1
+Added Pin To Net: NetName=NetCboot_2 Pin=Cboot-2
+Added Pin To Net: NetName=NetCboot_2 Pin=D1-1
+Added Pin To Net: NetName=NetCboot_2 Pin=L1-1
+Added Pin To Net: NetName=NetCboot_2 Pin=U1-8
+Added Net: Name=NetCboot_2
+Added Pin To Net: NetName=NetCcomp2_1 Pin=Ccomp2-1
+Added Pin To Net: NetName=NetCcomp2_1 Pin=Rcomp-1
+Added Pin To Net: NetName=NetCcomp2_1 Pin=U1-6
+Added Net: Name=NetCcomp2_1
+Added Pin To Net: NetName=NetCcomp_1 Pin=Ccomp-1
+Added Pin To Net: NetName=NetCcomp_1 Pin=Rcomp-2
+Added Net: Name=NetCcomp_1
+Added Pin To Net: NetName=NetCss_1 Pin=Css-1
+Added Pin To Net: NetName=NetCss_1 Pin=U1-4
+Added Net: Name=NetCss_1
+Added Class: Name=SW 12
+Added Room: Name=SW 12

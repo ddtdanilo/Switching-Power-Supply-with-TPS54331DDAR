@@ -1,0 +1,24 @@
+Move Component(s) Origin to Grid
+Filename     : F:\Google Drive\Proyectos\Tarjeta de Distribución de Energía\BEC 12V\Altium Designer\SW 12\SW 12.PcbDoc
+Date         : 10/12/2015
+Time         : 21:39:56
+Time Elapsed : 00:00:00
+
+
+    SIP Component PowerOut-Header 4 (2245mil,1005mil) on Top Layer - Component pads are OFF grid. No action taken.
+    SIP Component PowerIn-Header 4 (795mil,1010mil) on Top Layer - Component pads are OFF grid. No action taken.
+    SOIC Component U1-TPS54331DDAR (1750mil,1350mil) on Top Layer - Component origin is already ON grid. - Component pads are OFF grid. No action taken.
+    SMT Small Component Rfbt-CRCW080510K2FKEA (2020mil,2449.528mil) on Top Layer - Component pads are OFF grid. No action taken.
+    SMT Small Component Rfbb-CRCW0805732RFKEA (2725mil,1264.527mil) on Top Layer - Component pads are OFF grid. No action taken.
+    SMT Small Component Rcomp-CRCW080538K3FKEA (1350mil,2429.528mil) on Top Layer - Component pads are OFF grid. No action taken.
+    SMT Small Component L1-SRR1260-150M (2655mil,2320mil) on Top Layer - Component pads are OFF grid. No action taken.
+    SMT Small Component D1-B340A-13-F (2350mil,2329.528mil) on Top Layer - Component pads are OFF grid. No action taken.
+    SMT Small Component Css-GRM188R71E822KA01D (3315mil,1324.527mil) on Top Layer - Component pads are OFF grid. No action taken.
+    SMT Small Component Cout2-GRM32ER61E226KE15L (1035mil,2424.528mil) on Top Layer - Component pads are OFF grid. No action taken.
+    SMT Small Component Cout1-GRM32ER61E226KE15L (715mil,2424.528mil) on Top Layer - Component pads are OFF grid. No action taken.
+    SMT Small Component Cin2-GRM32ER71H475KA88L (1200mil,1260mil) on Top Layer - Component origin is already ON grid. - Component pads are OFF grid. No action taken.
+    SMT Small Component Cin1-GRM32ER71H475KA88L (1030mil,1255mil) on Top Layer - Component pads are OFF grid. No action taken.
+    SMT Small Component Ccomp-CC0805KRX7R9BB152 (1205mil,1565mil) on Top Layer - Component pads are OFF grid. No action taken.
+    SMT Small Component Ccomp2-CL21C300JBANNNC (1035mil,1565mil) on Top Layer - Component pads are OFF grid. No action taken.
+    SMT Small Component Cboot-C1608X7R1E104K (2820mil,2489.528mil) on Top Layer - Component pads are OFF grid. No action taken.
+count : 16

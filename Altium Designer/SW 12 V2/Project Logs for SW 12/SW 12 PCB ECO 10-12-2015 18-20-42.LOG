@@ -1,0 +1,12 @@
+Added Component: Designator=PowerIn(HDR1X4)
+Added Component: Designator=PowerOut(HDR1X4)
+Added Pin To Net: NetName=0 Pin=PowerIn-1
+Added Pin To Net: NetName=0 Pin=PowerIn-2
+Added Pin To Net: NetName=0 Pin=PowerIn-3
+Added Pin To Net: NetName=0 Pin=PowerIn-4
+Added Pin To Net: NetName=0 Pin=PowerOut-1
+Added Pin To Net: NetName=0 Pin=PowerOut-2
+Added Pin To Net: NetName=0 Pin=PowerOut-3
+Added Pin To Net: NetName=0 Pin=PowerOut-4
+Added Member To Class: ClassName=SW 12 Member=Component PowerIn Header 4
+Added Member To Class: ClassName=SW 12 Member=Component PowerOut Header 4

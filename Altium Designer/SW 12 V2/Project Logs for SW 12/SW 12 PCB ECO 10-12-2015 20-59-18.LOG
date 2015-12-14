@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=U1 Old Footprint=TI-D8_N New Footprint=PowerPAD PLASTIC SMALL-OUTLINE
+Added Pin To Net: NetName=GND Pin=U1-9
+Added Member To Class: ClassName=SW 12 Member=Component U1 TPS54331DDAR
+Added Room: Name=SW 12
