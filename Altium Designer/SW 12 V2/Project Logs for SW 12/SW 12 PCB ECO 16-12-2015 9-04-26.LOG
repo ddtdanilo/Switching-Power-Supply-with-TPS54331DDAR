@@ -1,0 +1,64 @@
+Removed Pin From Net: NetName=VOUT Pin=12V Out-2
+Change Component Designator: OldDesignator=12V Out NewDesignator=Out
+Added Component: Designator=Cboot_5(1608[0603])
+Added Component: Designator=Ccomp2_5(6-0805_M)
+Added Component: Designator=Ccomp_5(6-0805_M)
+Added Component: Designator=Cin1_5(C1210_M)
+Added Component: Designator=Cin2_5(C1210_M)
+Added Component: Designator=Cout1_5(C1210_M)
+Added Component: Designator=Cout2_5(C1210_M)
+Added Component: Designator=Css_5(1608[0603])
+Added Component: Designator=D1_5(SMA Diode Package)
+Added Component: Designator=L1_5(SRR1260)
+Added Component: Designator=Rcomp_5(6-0805_M)
+Added Component: Designator=Rfbb_5(6-0805_M)
+Added Component: Designator=Rfbt_5(6-0805_M)
+Added Component: Designator=U2(TI-D8_N)
+Added Pin To Net: NetName=GND Pin=Ccomp2_5-2
+Added Pin To Net: NetName=GND Pin=Ccomp_5-2
+Added Pin To Net: NetName=NetCin1_1 Pin=Cin1_5-1
+Added Pin To Net: NetName=GND Pin=Cin1_5-2
+Added Pin To Net: NetName=NetCin1_1 Pin=Cin2_5-1
+Added Pin To Net: NetName=GND Pin=Cin2_5-2
+Added Pin To Net: NetName=GND Pin=Cout1_5-2
+Added Pin To Net: NetName=GND Pin=Cout2_5-2
+Added Pin To Net: NetName=GND Pin=Css_5-2
+Added Pin To Net: NetName=GND Pin=D1_5-2
+Added Pin To Net: NetName=GND Pin=Rfbb_5-2
+Added Pin To Net: NetName=NetCin1_1 Pin=U2-2
+Added Pin To Net: NetName=GND Pin=U2-7
+Change Net Name : Old Net Name=NetCin1_1 New Net Name=VIN
+Change Net Name : Old Net Name=PH New Net Name=PH_12
+Change Net Name : Old Net Name=VOUT New Net Name=+12V
+Added Pin To Net: NetName=+5V Pin=Cout1_5-1
+Added Pin To Net: NetName=+5V Pin=Cout2_5-1
+Added Pin To Net: NetName=+5V Pin=L1_5-2
+Added Pin To Net: NetName=+5V Pin=Out-2
+Added Pin To Net: NetName=+5V Pin=Rfbt_5-1
+Added Net: Name=+5V
+Added Pin To Net: NetName=NetCboot_5_1 Pin=Cboot_5-1
+Added Pin To Net: NetName=NetCboot_5_1 Pin=U2-1
+Added Net: Name=NetCboot_5_1
+Added Pin To Net: NetName=NetCcomp2_5_1 Pin=Ccomp2_5-1
+Added Pin To Net: NetName=NetCcomp2_5_1 Pin=Rcomp_5-1
+Added Pin To Net: NetName=NetCcomp2_5_1 Pin=U2-6
+Added Net: Name=NetCcomp2_5_1
+Added Pin To Net: NetName=NetCcomp_5_1 Pin=Ccomp_5-1
+Added Pin To Net: NetName=NetCcomp_5_1 Pin=Rcomp_5-2
+Added Net: Name=NetCcomp_5_1
+Added Pin To Net: NetName=NetCss_5_1 Pin=Css_5-1
+Added Pin To Net: NetName=NetCss_5_1 Pin=U2-4
+Added Net: Name=NetCss_5_1
+Added Pin To Net: NetName=NetRfbb_5_1 Pin=Rfbb_5-1
+Added Pin To Net: NetName=NetRfbb_5_1 Pin=Rfbt_5-2
+Added Pin To Net: NetName=NetRfbb_5_1 Pin=U2-5
+Added Net: Name=NetRfbb_5_1
+Added Pin To Net: NetName=PH_5 Pin=Cboot_5-2
+Added Pin To Net: NetName=PH_5 Pin=D1_5-1
+Added Pin To Net: NetName=PH_5 Pin=L1_5-1
+Added Pin To Net: NetName=PH_5 Pin=U2-8
+Added Net: Name=PH_5
+Added Class: Name=SW_S_5
+Added Room: Name=SW 12
+Added Room: Name=SW_S_5
+Added Room: Name=SW_S_12

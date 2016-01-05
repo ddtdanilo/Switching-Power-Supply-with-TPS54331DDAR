@@ -1,1 +1,3 @@
 Record=TopLevelDocument|FileName=SW 12.schdoc
+Record=SheetSymbol|Record=SheetSymbol|SourceDocument=SW 12.schdoc|Designator=SW_S_5|SchDesignator=SW_S_5|FileName=SW_S_5.SchDoc|SymbolType=Normal|RawFileName=SW_S_5.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|Record=SheetSymbol|SourceDocument=SW 12.schdoc|Designator=SW_S_12|SchDesignator=SW_S_12|FileName=SW_S_12.SchDoc|SymbolType=Normal|RawFileName=SW_S_12.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
