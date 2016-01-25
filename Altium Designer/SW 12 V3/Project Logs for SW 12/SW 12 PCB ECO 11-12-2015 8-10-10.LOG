@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=VIN Pin=Cin1-1
+Removed Pin From Net: NetName=VIN Pin=Cin2-1
+Removed Pin From Net: NetName=VIN Pin=Cout1-1
+Removed Pin From Net: NetName=VIN Pin=Cout2-1
+Removed Pin From Net: NetName=VIN Pin=L1-2
+Removed Pin From Net: NetName=VIN Pin=Rfbb-1
+Removed Pin From Net: NetName=VIN Pin=Rfbt-1
+Removed Pin From Net: NetName=VIN Pin=Rfbt-2
+Removed Pin From Net: NetName=VIN Pin=U1-2
+Removed Pin From Net: NetName=VIN Pin=U1-5
+Change Net Name : Old Net Name=VIN New Net Name=0
+Added Pin To Net: NetName=NetRfbb_1 Pin=Rfbb-1
+Added Pin To Net: NetName=NetRfbb_1 Pin=Rfbt-2
+Added Pin To Net: NetName=NetRfbb_1 Pin=U1-5
+Added Net: Name=NetRfbb_1
+Added Pin To Net: NetName=VIN Pin=Cin1-1
+Added Pin To Net: NetName=VIN Pin=Cin2-1
+Added Pin To Net: NetName=VIN Pin=U1-2
+Added Net: Name=VIN
+Added Pin To Net: NetName=VOUT Pin=Cout1-1
+Added Pin To Net: NetName=VOUT Pin=Cout2-1
+Added Pin To Net: NetName=VOUT Pin=L1-2
+Added Pin To Net: NetName=VOUT Pin=Rfbt-1
+Added Net: Name=VOUT
+Added Room: Name=SW 12

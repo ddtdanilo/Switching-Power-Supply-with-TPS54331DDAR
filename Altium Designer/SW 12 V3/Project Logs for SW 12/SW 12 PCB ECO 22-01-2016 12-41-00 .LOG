@@ -1,0 +1,37 @@
+Added Component: Designator=AUX(10 AWG Power Footprint)
+Added Component: Designator=Batt(14 AWG Power Footprint)
+Added Component: Designator=ESC1(10 AWG Power Footprint)
+Added Component: Designator=ESC2(10 AWG Power Footprint)
+Added Component: Designator=ESC3(10 AWG Power Footprint)
+Added Component: Designator=ESC4(10 AWG Power Footprint)
+Added Component: Designator=ESC5(10 AWG Power Footprint)
+Added Component: Designator=ESC6(10 AWG Power Footprint)
+Added Pin To Net: NetName=VIN Pin=AUX-1
+Added Pin To Net: NetName=GND Pin=AUX-2
+Added Pin To Net: NetName=VIN Pin=Batt-1
+Added Pin To Net: NetName=GND Pin=Batt-2
+Added Pin To Net: NetName=VIN Pin=ESC1-1
+Added Pin To Net: NetName=GND Pin=ESC1-2
+Added Pin To Net: NetName=VIN Pin=ESC2-1
+Added Pin To Net: NetName=GND Pin=ESC2-2
+Added Pin To Net: NetName=VIN Pin=ESC3-1
+Added Pin To Net: NetName=GND Pin=ESC3-2
+Added Pin To Net: NetName=VIN Pin=ESC4-1
+Added Pin To Net: NetName=GND Pin=ESC4-2
+Added Pin To Net: NetName=VIN Pin=ESC5-1
+Added Pin To Net: NetName=GND Pin=ESC5-2
+Added Pin To Net: NetName=VIN Pin=ESC6-1
+Added Pin To Net: NetName=GND Pin=ESC6-2
+Change Net Name : Old Net Name=VIN New Net Name=VBATT
+Added Member To Class: ClassName=SW 12 Member=Component AUX Header 2
+Added Member To Class: ClassName=SW 12 Member=Component Batt Header 2
+Added Member To Class: ClassName=SW 12 Member=Component ESC1 Header 2
+Added Member To Class: ClassName=SW 12 Member=Component ESC2 Header 2
+Added Member To Class: ClassName=SW 12 Member=Component ESC3 Header 2
+Added Member To Class: ClassName=SW 12 Member=Component ESC4 Header 2
+Added Member To Class: ClassName=SW 12 Member=Component ESC5 Header 2
+Added Member To Class: ClassName=SW 12 Member=Component ESC6 Header 2
+Change Room Name: Old Name=Fuentes Switching New Name=SW_S_12
+Change Room Scope: Old Scope=InComponentClass('Components Class 2') New Scope=InComponentClass('SW_S_12')
+Added Room: Name=SW 12
+Added Room: Name=SW_S_5

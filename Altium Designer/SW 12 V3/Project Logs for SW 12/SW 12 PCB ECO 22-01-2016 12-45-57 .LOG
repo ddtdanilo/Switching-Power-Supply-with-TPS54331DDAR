@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=+5V Pin=Out-2
+Removed Pin From Net: NetName=GND Pin=Out-3
+Removed Pin From Net: NetName=VBATT Pin=PowerIn-1
+Removed Pin From Net: NetName=VBATT Pin=PowerIn-2
+Removed Pin From Net: NetName=GND Pin=PowerIn-3
+Removed Pin From Net: NetName=GND Pin=PowerIn-4
+Removed Member From Class: ClassName=SW 12 Member=PowerIn
+Change Component Designator: OldDesignator=Out NewDesignator=Out2
+Added Component: Designator=Out1(HDR1X4)
+Added Pin To Net: NetName=+12V Pin=Out1-1
+Added Pin To Net: NetName=GND Pin=Out1-2
+Added Pin To Net: NetName=+5V Pin=Out1-3
+Added Pin To Net: NetName=GND Pin=Out1-4
+Added Pin To Net: NetName=GND Pin=Out2-2
+Added Pin To Net: NetName=+5V Pin=Out2-3
+Added Member To Class: ClassName=SW 12 Member=Component Out1 Header 4
+Added Room: Name=SW 12
+Added Room: Name=SW_S_5

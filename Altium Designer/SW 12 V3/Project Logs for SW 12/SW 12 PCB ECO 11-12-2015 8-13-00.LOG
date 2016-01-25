@@ -1,0 +1,13 @@
+Added Component: Designator=PowerIn(HDR1X4)
+Added Component: Designator=PowerIOut(HDR1X4)
+Added Pin To Net: NetName=VIN Pin=PowerIn-1
+Added Pin To Net: NetName=VIN Pin=PowerIn-2
+Added Pin To Net: NetName=0 Pin=PowerIn-3
+Added Pin To Net: NetName=0 Pin=PowerIn-4
+Added Pin To Net: NetName=VOUT Pin=PowerIOut-1
+Added Pin To Net: NetName=VOUT Pin=PowerIOut-2
+Added Pin To Net: NetName=0 Pin=PowerIOut-3
+Added Pin To Net: NetName=0 Pin=PowerIOut-4
+Added Member To Class: ClassName=SW 12 Member=Component PowerIn Header 4
+Added Member To Class: ClassName=SW 12 Member=Component PowerIOut Header 4
+Added Room: Name=SW 12
