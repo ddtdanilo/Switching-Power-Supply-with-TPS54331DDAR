@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [SW 12.PrjPcb]
+   Generated File[SW 12.TXT]
+   Generated File[SW 12.LDP]
+   Generated File[SW 12.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 11:40:13  On 02/02/2016

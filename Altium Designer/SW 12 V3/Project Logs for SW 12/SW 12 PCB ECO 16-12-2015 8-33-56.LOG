@@ -1,9 +1,0 @@
-Removed Member From Class: ClassName=SW 12 Member=PowerIn
-Removed Member From Class: ClassName=SW 12 Member=PowerOut
-Change Component Footprint: Designator=Css Old Footprint=1608[0603] New Footprint=0603
-Change Component Designator: OldDesignator=PowerOut NewDesignator=12V Out
-Change Net Name : Old Net Name=VIN New Net Name=NetCin1_1
-Change Class Name : Old Net Name=SW 12 New Net Name=SW_S_12
-Added Class: Name=SW 12
-Added Room: Name=SW 12
-Added Room: Name=SW_S_12

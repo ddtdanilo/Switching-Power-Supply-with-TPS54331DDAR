@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=PowerIn-1
-Removed Pin From Net: NetName=GND Pin=PowerIn-2
-Removed Pin From Net: NetName=GND Pin=PowerIn-3
-Removed Pin From Net: NetName=GND Pin=PowerIn-4
-Removed Pin From Net: NetName=GND Pin=PowerOut-1
-Removed Pin From Net: NetName=GND Pin=PowerOut-2
-Removed Member From Class: ClassName=SW 12 Member=PowerIn
-Removed Member From Class: ClassName=SW 12 Member=PowerOut
-Added Room: Name=SW 12
