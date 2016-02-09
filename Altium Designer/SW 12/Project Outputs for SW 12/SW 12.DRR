@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------
-NCDrill File Report For: SW 12.PcbDoc   02/02/2016  11:40:12 
+NCDrill File Report For: SW 12.PcbDoc   09/02/2016  12:11:11 
 ---------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,12 +7,13 @@ ASCII RoundHoles File : SW 12.TXT
 
 Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
 ---------------------------------------------------------------------------
-T1        10mil (0.254mm)          Round          200              13.58 Inch (344.87 mm)
-T2        25mil (0.635mm)          Round          2                0.66 Inch (16.79 mm)
-T3        28mil (0.7112mm)         Round          4                1.02 Inch (26.02 mm)
-T4        35mil (0.889mm)          Round          10               2.51 Inch (63.80 mm)
-T5        125mil (3.175mm)         Round          4                7.53 Inch (191.13 mm)
+T1        10mil (0.254mm)          Round          24               1.14 Inch (28.83 mm)
+T2        20mil (0.508mm)          Round          332              18.63 Inch (473.29 mm)
+T3        25mil (0.635mm)          Round          3                0.66 Inch (16.85 mm)
+T4        28mil (0.7112mm)         Round          3                0.72 Inch (18.27 mm)
+T5        35mil (0.889mm)          Round          10               2.37 Inch (60.12 mm)
+T6        125mil (3.175mm)         Round          4                7.53 Inch (191.13 mm)
 ---------------------------------------------------------------------------
-Totals                                            220              25.30 Inch (642.62 mm)
+Totals                                            376              31.04 Inch (788.51 mm)
 
-Total Processing Time (hh:mm:ss) : 00:00:01
+Total Processing Time (hh:mm:ss) : 00:00:00

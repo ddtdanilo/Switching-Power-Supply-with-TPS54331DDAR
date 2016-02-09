@@ -1,0 +1,7 @@
+Removed Member From Class: ClassName=SW_S_12 Member=Vin
+Change Component Footprint: Designator=LedEnable Old Footprint=HDR1X2 New Footprint=14 AWG Power Footprint
+Change Component Designator: OldDesignator=LedEnable NewDesignator=BatEnable
+Change Component Designator: OldDesignator=Vin NewDesignator=Batt
+Added Room: Name=SW 12
+Added Room: Name=SW_S_5
+Added Room: Name=SW_S_12
