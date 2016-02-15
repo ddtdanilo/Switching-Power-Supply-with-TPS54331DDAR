@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=BatEnable Old Footprint=14 AWG Power Footprint New Footprint=HDR1X2
+Added Room: Name=SW 12
+Added Room: Name=SW_S_5
+Added Room: Name=SW_S_12
