@@ -45,11 +45,11 @@ Generating : Bottom Layer
 
 
 Used DCodes :
-    D11
-    D17
+    D15
     D18
     D19
     D20
+    D21
     D22
     D23
     D24
@@ -125,7 +125,7 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D44
+    D48
     D50
     D51
     D52
@@ -148,8 +148,8 @@ Generating : Bottom Overlay
 
 
 Used DCodes :
+    D38
     D39
-    D40
     D41
     D42
 *************************************************************
@@ -175,7 +175,7 @@ Generating : Drill Drawing
 
 
 Used DCodes :
-    D41
+    D42
     D63
 *************************************************************
 
@@ -189,6 +189,6 @@ Generating : Drill Guide
 
 
 Used DCodes :
-    D41
+    D42
 *************************************************************
 
